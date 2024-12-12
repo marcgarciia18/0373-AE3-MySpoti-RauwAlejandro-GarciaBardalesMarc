@@ -6,36 +6,49 @@
     <title>Discografía</title>
     <link rel="shortcut icon" href="./assets/favicon/discografia.png" type="image/x-icon">
     <style>
-        .albums1{display: flex; justify-content: space-between; width: 100%;}
-        .albums2{display: flex; justify-content: space-between; width: 100%;}
+        .albums{display: flex; justify-content: space-between; width: 100%;}
          .trapcake{width: 33%;} .afrodisiaco{width: 33%;} .viceversa{width: 33%;}
-         .trapcake2{width: 25%;} .saturno{width: 25%;} .playasaturno{width: 25%;} .cosanuestra {width: 25%;}
+         .saturno{width: 33%;} .playasaturno{width: 33%;} .cosanuestra {width: 33%;}
+         .encabezado{display: flex;}
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Discografía de Rauw Alejandro</h1>
+        <div class="encabezado">
+            <img src="./assets/favicon/logo.png" alt="Logo Rauw Alejandro" height="100px" width="100px">
+            <h1>Discografia de Rauw Alejandro</h1>
+        </div>
+        <fieldset>
+        <table>
+            <tr>
+                <th><img src="./assets/favicon/inicio.png" alt="Inicio" width="15px" height="15px" ><a href="index.html"> Inicio</a></th>
+                <th><img src="./assets/favicon/newsletter.png" alt="Newsletter" height="15px" width="15px"><a href="newsletter.html"> Newsletter</a></th>
+                <th><img src="./assets/favicon/instragram.png" alt="Instagram" width="15px" height="15px"> <a href="https://www.instagram.com/rauwalejandro" target="_blank"> Instragram</a></th>
+                <th><img src="./assets/favicon/twitter.png" alt="Twitter" width="15px" height="15px"> <a href="https://x.com/rauwalejandro" target="_blank"> Twitter</a></th>
+                <th><img src="./assets/favicon/spotify.png" alt="Spotify" width="15px" height="15px"> <a href="https://open.spotify.com/intl-es/artist/1mcTU81TzQhprhouKaTkpq?si=8bnjfjGFQqO3sJfKRxqMIw" target="_blank"> Spotify</a></th>
+            </tr>
+        </table>
+    </fieldset>
     </header>
-    <main>
         <h2>Álbumes</h2>
-        <div class="albums1">
+        <div class="albums">
             <div class="trapcake">
-                <img src="assets/portadas/trapcake.png" alt="Portada del álbum Trap Cake Vol1" height="250px" width="250px">
+                <a href="./albums/trapcake.html"><img src="assets/portadas/trapcake.png" alt="Portada del álbum Trap Cake Vol1" height="250px" width="250px"></a>
                 <h3>Trap Cake Vol 1</h3>
                 <p><b>Año:</b> 2019</p>
                 <a href="./albums/trapcake.html">Descrubre las canciones de Trap Cake Vol.1</a>
             </div>
 
             <div class="afrodisiaco">
-                <img src="assets/portadas/afrodisiaco.png" alt="Portada del álbum Afrodisiaco" height="250px" width="250px">
+                <a href="./albums/afrodisiaco.html"><img src="assets/portadas/afrodisiaco.png" alt="Portada del álbum Afrodisiaco" height="250px" width="250px"></a>
                 <h3>Afrodisiaco</h3>
                 <p><b>Año:</b> 2020</p>
                 <a href="./albums/afrodisiaco.html">Descrubre las canciones de Afrodisiaco</a>
             </div>
 
             <div class="viceversa">
-                <img src="assets/portadas/viceversa.png" alt="Portada del álbum viceversa" height="250px" width="250px">
+                <a href="./albums/viceversa.html"><img src="assets/portadas/viceversa.png" alt="Portada del álbum Viceversa" height="250px" width="250px"></a>
                 <h3>Vice versa</h3>
                 <p><b>Año:</b> 2021</p>
                 <a href="./albums/viceversa.html">Descrubre las canciones de Vice versa</a>
@@ -44,29 +57,22 @@
         <br>
         <hr>
         <br>
-        <div class="albums2">
-            <div class="trapcake2">
-                <img src="assets/portadas/trapcake2.png" alt="Portada del álbum Trap Cake Vol2" height="250px" width="250px">
-                <h3>Trap Cake Vol 2</h3>
-                <p><b>Año:</b> 2022</p>
-                <a href="./albums/trapcake2.html">Descrubre las canciones de Trap Cake Vol.2</a>
-            </div>
-
+        <div class="albums">
             <div class="saturno">
-                <img src="assets/portadas/saturno.png" alt="Portada del álbum Saturno" height="250px" width="250px">
+                <a href="./albums/saturno.html"><img src="assets/portadas/saturno.png" alt="Portada del álbum Saturno" height="250px" width="250px"></a>
                 <h3>Saturno</h3>
                 <p><b>Año:</b> 2022</p>
                 <a href="./albums/saturno.html">Descrubre las canciones de Saturno</a>
             </div>
 
             <div class="playasaturno">
-                <img src="assets/portadas/playasaturno.jpg" alt="Portada del álbum Playa Saturno" height="250px" width="250px">
+                <a href="./albums/playasaturno.html"><img src="assets/portadas/playasaturno.jpg" alt="Portada del álbum Playa Saturno" height="250px" width="250px"></a>
                 <h3>Playa Saturno</h3>
                 <p><b>Año:</b> 2023</p>
                 <a href="./albums/playasaturno.html">Descrubre las canciones de Playa Saturno</a>
             </div>
             <div class="cosanuestra">
-                <img src="assets/portadas/cosanuestra.png" alt="Portada del álbum Cosa Nuestra" height="250px" width="250px">
+                <a href="./albums/cosanuestra.html"><img src="assets/portadas/cosanuestra.png" alt="Portada del álbum Cosa Nuestra" height="250px" width="250px"></a>
                 <h3>Cosa Nuestra</h3>
                 <p><b>Año:</b> 2024</p>
                 <a href="./albums/cosanuestra.html">Descrubre las canciones de Cosa Nuestra</a>

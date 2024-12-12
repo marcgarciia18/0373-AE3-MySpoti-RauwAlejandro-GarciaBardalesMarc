@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscríbete a la Newsletter de Rauw Alejandro</title>
+    <style>
+        div{display: flex;}
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./assets/favicon/logo.png" alt="Logo Rauw Alejandro" height="100px" width="100px">
+            <h1>Rauw Alejandro</h1>
+        </div>
+        <fieldset>
+            <table>
+                <tr>
+                    <th><img src="./assets/favicon/inicio.png" alt="Index" height="15px" width="15px"><a href="index.html"> Inicio</a></th>
+                    <th><img src="./assets/favicon/discografia.png" alt="Discografía" width="15px" height="15px" ><a href="discografia.html"> Discografía</a></th>
+                    <th><img src="./assets/favicon/instragram.png" alt="Instagram" width="15px" height="15px"> <a href="https://www.instagram.com/rauwalejandro" target="_blank"> Instragram</a></th>
+                    <th><img src="./assets/favicon/twitter.png" alt="Twitter" width="15px" height="15px"> <a href="https://x.com/rauwalejandro" target="_blank">Twitter</a></th>
+                    <th><img src="./assets/favicon/spotify.png" alt="Spotify" width="15px" height="15px"> <a href="https://open.spotify.com/intl-es/artist/1mcTU81TzQhprhouKaTkpq?si=8bnjfjGFQqO3sJfKRxqMIw" target="_blank"> Spotify</a></th>
+                </tr>
+            </table>
+        </fieldset>
+    </header>
+    <h2>Sé el primero en enterarte de las últimas novedades de Rauw Alejandro.</h2>
+    <fieldset>
+        <form action="suscripcion.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required ><br>
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"><br>
+            <br>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="puertorico">Puerto Rico</option>
+                <option value="estadosunicos">Estados Unidos</option>
+                <option value="mexico">Mexico</option>
+                <option value="españa">España</option>
+                <option value="colombia">Colombia</option>
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Perú</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="republicadominicana">Républica Dominicana</option>
+            </select>
+            <br><br>
+            <label>Intereses:</label>
+            <input type="checkbox" name="intereses[]" value="conciertos"> Conciertos
+            <input type="checkbox" name="intereses[]" value="merchandising"> Merchandising
+            <input type="checkbox" name="intereses[]" value="noticias"> Noticias
+            <br>
+            <br>
+            <button type="submit">Suscribirme</button>
+            <br>
+    </fieldset>
+        </form>
+</body>
+</html>
